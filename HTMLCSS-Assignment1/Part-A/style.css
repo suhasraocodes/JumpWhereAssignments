@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    font-family: "Varela Round", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    cursor: url('cursor1.cur'),auto;
+}
+
+header{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    box-shadow: #000;
+}
+
+nav{
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,5,70,1) 0%, rgba(221,152,209,1) 100%, rgba(0,212,255,1) 100%);
+}
+nav h1{
+    color: white;
+    font-size: 180%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 120%;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+a:hover{
+color: white;
+}
+.hero{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    z-index: 10;
+    position: relative;
+}
+.hero video{
+    filter: blur(7px);
+    margin-left: -15px ;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+    font-size: 2.5vw;
+}
+.inner img{
+    height:auto;
+    width: 12vw;
+    height: auto;
+    object-fit: contain;
+    margin-top: -20px;
+}
+.inner button{
+    background: #2B0437;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    padding: 8px;
+    background: #9b05c9;
+}
+
+.inner button:hover{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,5,70,1) 0%, rgba(221,152,209,1) 100%, rgba(0,212,255,1) 100%);
+    
+}
+.products-container{
+    background-color: #d244fd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 310px;
+    align-items: center;
+    justify-content:center ;
+}
+.products-container h1{
+    font-size: 2vw;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.products li{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+}
+.product{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-color: #2B0437;
+    border: #2B0437;
+    border-width: 5px;
+    border-radius: 20px;
+    background-color: rgb(255, 130, 234);   
+}
+
+.product:hover{
+    transform: translate3d(20px,20px,20px);
+}
+.product img{
+    width: 20vw;
+    height: 60vh;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+
+.delivery{
+    background-color: #9b05c9;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/01/07/40/city-lights-966611_1280.jpg);
+    background-size:auto;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    font-size: 1vw;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,5,70,1) 0%, rgba(221,152,209,1) 100%, rgba(0,212,255,1) 100%);
+width: 100vw;
+padding: 00px;
+z-index: 10;
+}
