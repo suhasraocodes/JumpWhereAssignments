@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #6CBB58;
+    margin: -8px;
+    outline: none;
+    height: 60px;
+}
+nav h1{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 200%;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 5px;
+}
+li{
+    margin: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.webtext{
+    font-size: 143%;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.flexboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.box{
+    background-color: #EEEEEE;
+    width: 330px;
+    height: 260px;
+    padding: 20px;
+    padding-top: 24px;
+    border-width: 2px;
+
+}
+
+.box h2{
+    font-weight: bold;
+    font-size: 160%;
+}
+
+.box p{
+    
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
